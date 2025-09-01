@@ -17,8 +17,6 @@ export const colors = {
   success: '#10B981',
   warning: '#F59E0B',
   error: '#EF4444',
-  
-  // Legacy colors for backward compatibility
   red: '#EF4444',
   pink: '#EC407A',
   teal: '#00C896',

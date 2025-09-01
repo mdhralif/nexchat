@@ -4,7 +4,7 @@ import { Ionicons } from '@expo/vector-icons';
 import * as ImagePicker from 'expo-image-picker';
 import EmojiModal from 'react-native-emoji-modal';
 import React, { useState, useEffect, useCallback } from 'react';
-import { doc, setDoc, getDoc, onSnapshot } from 'firebase/firestore';
+import { doc, setDoc, getDoc, } from 'firebase/firestore';
 import { Send, Bubble, GiftedChat, InputToolbar } from 'react-native-gifted-chat';
 import { ref, getStorage, getDownloadURL, uploadBytesResumable } from 'firebase/storage';
 import {
