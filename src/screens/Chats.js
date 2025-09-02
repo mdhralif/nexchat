@@ -54,7 +54,7 @@ const Chats = ({ setUnreadCount }) => {
       });
       return () => subscription.remove();
     }
-    // Always return a cleanup function for non-android platforms
+ 
     return () => { };
   }, [selectedItems.length]);
 

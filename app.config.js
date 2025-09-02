@@ -39,7 +39,7 @@ export default {
       appId: process.env.EXPO_PUBLIC_APP_ID,
       measurementId: process.env.EXPO_PUBLIC_MEASUREMENT_ID,
       eas: {
-        projectId: process.env.EXPO_PUBLIC_EAS_PROJECT_ID,
+        projectId: "c19178ba-ceac-4da7-89ba-58371a79a961",
       },
     },
   },

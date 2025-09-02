@@ -24,7 +24,7 @@ const Profile = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* Profile Avatar */}
+    
       <View style={styles.avatarContainer}>
         <TouchableOpacity style={styles.avatar} onPress={handleShowProfilePicture}>
           <Text style={styles.avatarLabel}>{initials}</Text>
@@ -34,7 +34,6 @@ const Profile = () => {
         </TouchableOpacity>
       </View>
 
-      {/* User Info Cells */}
       <View style={styles.infoContainer}>
         <Cell
           title="Name"
